@@ -27,7 +27,7 @@
     <jsp-file>/initJSP.jsp</jsp-file>
     <init-param>
     	<param-name>defaultUser</param-name>
-    	<param-value>Default User Name Test</param-value>
+    	<param-value>User Name Tested123</param-value>
     </init-param>
   </servlet>
   <servlet-mapping>
