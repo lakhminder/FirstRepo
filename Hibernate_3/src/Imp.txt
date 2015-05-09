@@ -1,0 +1,6 @@
+1) @NotFound : Hibernate provides the annotation @NotFound to suppress exception incase the 
+	ManytoOne the relation is not found in DB.
+	
+2) @org.hibernate.annotation.Entity(selectBeforeUpdate=true) => is used to tell hibernate to do a select before update statement to 
+	make sure update statement is fired only incase there is some change in the object state.Used when chenging the detached object 
+	to persistent Object(i.e making session.update(user) after doing session.close()) 
