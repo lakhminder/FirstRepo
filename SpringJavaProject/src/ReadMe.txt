@@ -1,3 +1,14 @@
+To set this project
+a) import the hibernate3 user library(already built => refer UserLibrariesInfo.txt)
+b)<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Spring3"/>
+	<classpathentry kind="lib" path="C:/Lucky/softwares/Struts2/struts-2.3.4.1-all/struts-2.3.4.1/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/AOP"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JDBC"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/DBCP"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate_3"/>
+================================================================
+
 1) We can use inner bean if we want to have that object locally
 <beans>
 	<bean id="triangle" class="org.lucky.spring.example2ApplicationContext.shapes.Triangle" >
