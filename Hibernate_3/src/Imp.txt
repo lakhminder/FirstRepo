@@ -1,3 +1,7 @@
+To set this project
+a) import the hibernate3 user library(already built => refer UserLibrariesInfo.txt)
+
+==================================
 1) @NotFound : Hibernate provides the annotation @NotFound to suppress exception incase the 
 	ManytoOne the relation is not found in DB.
 	
