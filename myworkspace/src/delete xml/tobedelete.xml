@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:CugInfoResponse xmlns:p="http://www.qwest.com/XMLSchema/BIM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.qwest.com/XMLSchema/BIM tobedelete.xsd ">
+  <p:MNSProvisioningFlag>false</p:MNSProvisioningFlag>
+  <p:ErrorCode>0</p:ErrorCode>
+  <p:ErrorMessage>p:ErrorMessage</p:ErrorMessage>
+</p:CugInfoResponse>

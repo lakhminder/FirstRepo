@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns = "http://www.qwest.com/XMLSchema/BIM"
+	 targetNamespace = "http://www.qwest.com/XMLSchema/BIM"
+	 xmlns:xsd = "http://www.w3.org/2001/XMLSchema"
+	 elementFormDefault = "qualified">
+    <xsd:element name = "CugInfoResponse">
+    	<xsd:annotation>
+        	<xsd:documentation>
+              	Response object that contains CUG INFO widget's MNS Provisioning indicator
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexType>
+        	<xsd:sequence>                   	  	
+             	<xsd:element name="MNSProvisioningFlag" type = "xsd:boolean" default="false"/>
+              	<xsd:element name="ErrorCode" type="xsd:int" minOccurs = "0" maxOccurs = "1">
+              		<xsd:annotation>
+						<xsd:documentation>For no error, error code will be 0. If error, error code will be -1.</xsd:documentation>
+					</xsd:annotation>
+              	</xsd:element>
+                <xsd:element name="ErrorMessage" type="xsd:string" minOccurs = "0" maxOccurs = "1"/>        
+            </xsd:sequence>
+        </xsd:complexType>
+	</xsd:element>
+</xsd:schema>
