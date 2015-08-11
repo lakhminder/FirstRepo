@@ -10,8 +10,7 @@ import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 
-/*
- * These are JSR 250 Annotations (Note javax.annotations.*)
+/* 
  * @Component annotation is used to auto-registered as 
 	Spring beans
  * 
