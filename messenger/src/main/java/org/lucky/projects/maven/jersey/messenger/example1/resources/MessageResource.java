@@ -10,7 +10,7 @@ import javax.ws.rs.core.MediaType;
  * @Get used to define which HTTP method request it entertains
  * @Produces define the response type
  * refer web.xml for folder to scan for resource uri's
- * @author lakhminder
+ * 
  *
  */
 @Path("/messages")
