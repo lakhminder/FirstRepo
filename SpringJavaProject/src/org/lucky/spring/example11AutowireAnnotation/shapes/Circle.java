@@ -19,6 +19,7 @@ public class Circle implements Shape{
 	}
 	@Autowired
 	@Qualifier("circleRelated")
+	//@Qualifier("pointA")
 	public void setCenter(Point center) {
 		this.center = center;
 	}
