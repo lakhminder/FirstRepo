@@ -13,7 +13,8 @@
 		<property name="pointC" ref="pointC"/>
 	</bean>
 	
-	<bean id="parentTriangle1" class="org.lucky.spring.example6BeanDefinitionInheritance.shapes.Triangle1">
+	<bean id="parentTriangle1" class="org.lucky.spring.example6BeanDefinitionInheritance.shapes.Triangle1" abstract="true">
+	<!-- <bean id="parentTriangle1" class="org.lucky.spring.example6BeanDefinitionInheritance.shapes.Triangle1"> -->
 		<property name="points">
 			<list>
 				<ref bean="pointA"/>
