@@ -13,5 +13,6 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Lucky/softwares/Apache/ApacheXMLSchema/xmlschema-core-2.2.1/lib/xmlschema-core-2.2.1.jar"/>
 	<classpathentry kind="output" path="classes"/>
 </classpath>
