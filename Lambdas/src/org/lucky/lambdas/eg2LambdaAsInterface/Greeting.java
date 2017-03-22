@@ -6,6 +6,8 @@ package org.lucky.lambdas.eg2LambdaAsInterface;
  * as it can not allow to add any other abstract method.
  * 
  * For backward compatibility now interface can have default methods as well i.e method implementations
+ * For eg foreach method have been added to each collection interface to provide support for lambdas 
+ * and since to provide backward compatibility, its added as default
  * 
  * So for Lambda/Functional interface are ones which has only one abstract method
  * 
