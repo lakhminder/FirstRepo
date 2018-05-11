@@ -1,5 +1,6 @@
 package org.lucky.lambdas.eg9Streams;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.function.Consumer;
 
@@ -29,6 +30,10 @@ public class StreamMain {
 		.parallelStream()
 		.filter(p->p.getLastName().startsWith("C"))
 		.forEach(System.out::println);
+		
+		
+		//To get min
+		System.out.println(persons.stream().min((a,b) -> a.getAge() - b.getAge()).orElse(null));
 
 	}
 
